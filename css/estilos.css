@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    color: #E20000;
+}
+p {
+    color: #6a6a6a;
+}
+
+#contacto {
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: gray;
+}
+#contacto main {
+    height: 45vh;
+}
+#txtMensaje {
+    height: 70px;
+}
+nav .nav-link {
+    color: #282828;
+}
+.nav-item {
+    padding-right: 9px;
+    padding-left: 9px;   
+}
+
+.navbar-brand {
+    display: none;
+}
+footer, footer a {
+    margin-top: 260px;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 14px;
+}
+footer .whatsapp {
+    color: white;
+    background-color: #370a6d;
+}
+i {
+    color: white;
+}
+.enlaces {
+    color: white;
+}
+.enlaces:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+.btn {
+    color: white;
+    background-color: white;
+    font-weight: 450px;
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.btn:hover {
+    color: white;
+    background-color: #370A6D;
+}
+.btn-pdf {
+    background-color: #E20000;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}
+.btn-pdf:hover {
+    text-decoration: underline;
+}
+button .btn {
+    background-color: #FFFFFF;
+    color: #370A6D;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+nav .active {
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
